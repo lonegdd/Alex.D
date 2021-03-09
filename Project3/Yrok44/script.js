@@ -5,7 +5,7 @@ function User(name, id) {
     this.id = id;
     this.human = true;
     this.hello = function() {
-        console.log(`Hello ${this.name}`);
+        console.log(`"Hello" + ${this.name}`);
     };
 }
 
